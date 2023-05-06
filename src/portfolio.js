@@ -23,7 +23,7 @@ const greeting = {
   username: "Shubham Kariya",
   title: "Hi all, I'm Shubham",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Flutter / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with Android / Java / JavaScript / Reactjs / Flutter and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1eBefkw-mxTcfPUFGDtgwVAfbkoVjI8if/view?usp=share_link", // Set to empty to hide the button
@@ -50,11 +50,11 @@ const skillsSection = {
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop full stack web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Create REST APIs integrated with different databases"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of third party services such as Firebase/ Azure / GCP and Cosmos DB"
     )
   ],
 
@@ -62,6 +62,10 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+    {
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
+    },
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
@@ -81,16 +85,8 @@ https://fontawesome.com/icons?d=gallery */
     },
    
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
     },
     {
       skillName: "Azure",
@@ -111,7 +107,8 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "android",
       fontAwesomeClassname: "fab fa-android"
-    }
+    },
+   
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -174,10 +171,9 @@ const workExperiences = {
       company: "Deloitte",
       companylogo: require("./assets/images/deloitteLogo.png"),
       date: "Feb 2022 – Present",
-      desc:"My role includes developing websites using JavaScript, designing and implementing REST APIs, optimizing data retrieval and processing, integrating with external systems such as ServiceNow, and working with GCP Firestore for data storage and retrieval.",
-      descBullets: [
-        "TechStack: Java, SpringBoot, ReactJs, ServiceNow Application, JavaScript, HTML5, CSS3, AJAX, JQuery, BootStrap, PL/SQL",
-        ]
+      desc:"My role includes developing websites using JavaScript, designing and implementing REST APIs, optimizing data retrieval and processing, integrating with external systems such as ServiceNow, and working with GCP Firestore for data storage and retrieval ",
+      techStack:"TechStack: Java, SpringBoot, ReactJs, ServiceNow Application, JavaScript, HTML5, CSS3, AJAX, JQuery, BootStrap, PL/SQL",
+
     },
     {
       role: "Software Engineer",
@@ -185,9 +181,8 @@ const workExperiences = {
       companylogo: require("./assets/images/atosLogo.png"),
       date: "Jan 2020 – Feb 2022",
       desc: "Worked on various projects that required handling the client database which will help clients to store the data systematically with reduced fetching time. I also created the CITA account on the Linux OS. As a ServiceNow Developer for around 1 year, I have also designed different tools such as Agent Chat and Explicit Role, and Walkup Instance. ",
-      descBullets: [
-        "TechStack: ReactJS, Angular JS, ServiceNow Application, PL/SQL, Linux"
-      ]
+      techStack: "TechStack: ReactJS, Angular JS, ServiceNow Application, PL/SQL, Linux"
+
     },
    
   ]
@@ -208,7 +203,7 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/FamilyTracker.avif"),
       projectName: "FamilyTracker",
       projectDesc: "The app is designed to keep you connected with your friends and family in real-time, no matter where they are. You can track their location, give an emergency call with sms, and even start an alert sound when needed. Adding and removing members from your group is simple, making it easy to manage your connections. Whether you're planning a family trip or simply want to stay connected with your loved ones, the FamilyTracker app is the perfect solution.",
       footerLink: [
@@ -220,9 +215,9 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/ChatBot.avif"),
       projectName: "ChatBot",
-      projectDesc: "The app allows users to sign up and log in using their email or social media accounts, view a list of all active users, and initiate chats with any user on the list. Messages are stored in Firebase's Cloud Firestore database, enabling real-time syncing of data between clients. The app can also support features like file sharing, push notifications, and online presence indicators. Firebase provides a scalable and reliable infrastructure for hosting and running the app, Overall, the app provides a secure, real-time, and feature-rich messaging experience for users.",
+      projectDesc: "The app allows users to sign up and log in using their email or social media accounts, view a list of all active users, and initiate chats with any user on the list. Messages are stored in Firebase's Cloud Firestore database, enabling real-time syncing of data between clients. The app can also support features like file sharing, push notifications, and online presence indicators. Firebase provides a scalable and reliable infrastructure for hosting and running the app.",
       footerLink: [
         {
           name: "Visit Code",

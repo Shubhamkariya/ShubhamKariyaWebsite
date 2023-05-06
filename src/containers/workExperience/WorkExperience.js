@@ -23,6 +23,7 @@ export default function WorkExperience() {
                       cardInfo={{
                         company: card.company,
                         desc: card.desc,
+                        techStack: card.techStack,
                         date: card.date,
                         companylogo: card.companylogo,
                         role: card.role,
