@@ -20,22 +20,7 @@ function Header() {
 
   return (
     <Headroom>
-  <meta name="description" content="Aman Dwivedi Portfolio Website"></meta>
-    <meta name="keywords" content="Shubham Kariya,Shubh Kariya, Shubham-Kariya, Shubh-Kariya, Shubham-Developer,Shubh-Developer,shubh_kariya, shubham_kariya, portfolio, website, web developer, open source enthusiast"></meta>
-    <meta name="author" content="Shubham Kariya"></meta>
-    <meta property="og:type" content="website"></meta>
-    <meta property="og:url" content="https://shubhamkariya.netlify.app/"></meta>
-    <meta property="og:title" content="Shubham Kariya Portfolio"></meta>
-    <meta property="og:image" content="https://shubhamkariya.netlify.app/"></meta>
-    <meta property="og:description" content="Shubham Kariya Portfolio Website"></meta>
-    <meta property="og:site_name" content="Shubham Kariya Portfolio"></meta>
-    <meta property="og:locale" content="en_US"></meta>
-    <meta property="og:image:width" content="1200"></meta>
-    <meta property="og:image:height" content="630"></meta>
-    <meta name="twitter:card" content="Shubham Kariyai Portfolio"></meta>
-    <meta name="twitter:url" content="https://shubhamkariya.netlify.app/"></meta>
-    <meta name="twitter:title" content="Shubham Kariya Portfolio"></meta>
-    <meta name="twitter:description" content="Shubham Kariya Portfolio Website"></meta>
+
       <header className={isDark ? "dark-menu header" : "header"}>
         <a href="/" className="logo">
           <h3><span className="grey-color"> &lt;</span>
