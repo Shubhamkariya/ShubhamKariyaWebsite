@@ -23,9 +23,9 @@ function Header() {
 
       <header className={isDark ? "dark-menu header" : "header"}>
         <a href="/" className="logo">
-          <h3><span className="grey-color"> &lt;</span>
+          <span className="grey-color"> &lt;</span>
           <span className="logo-name">{greeting.username}</span>
-          <span className="grey-color">/&gt;</span></h3>
+          <span className="grey-color">/&gt;</span>
         </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label

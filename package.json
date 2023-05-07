@@ -1,7 +1,6 @@
 {
   "name": "ShubhamKariya",
   "version": "0.1.0",
-  "homepage": "https://ShubhamKariya.github.io/src",
   "private": true,
   "dependencies": {
     "colorthief": "^2.3.0",
@@ -28,7 +27,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write \"./**/*.{js,css,json,scss}\"",
-    "check-format": "prettier -c \"./**/*.{js,css,json,scss}\"",
+    "check-format": "prettier -c \"./**/*.{js,css,json,scss}\""
   },
   "eslintConfig": {
     "extends": "react-app"
