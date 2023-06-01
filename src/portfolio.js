@@ -23,7 +23,7 @@ const greeting = {
   username: "Shubham Kariya",
   title: "Hi all, I'm Shubham",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with Android / Java / JavaScript / Reactjs / Flutter and some other cool libraries and frameworks."
+    "A passionate Cloud Engineer/Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with Android / Java / JavaScript / Reactjs / Flutter and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://docs.google.com/document/d/1NGTaa7qQiELFHWh-qOGfT2Yml8bOiPiT/edit?usp=sharing&ouid=103279802800784340186&rtpof=true&sd=true", // Set to empty to hide the button
@@ -47,10 +47,10 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY CLOUD ENGINEER/FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop full stack web and mobile applications"
+      "⚡ Develop full stack web/mobile applications with development of app inside different Cloud and in PlayStore"
     ),
     emoji("⚡ Create REST APIs integrated with different databases"),
     emoji(
