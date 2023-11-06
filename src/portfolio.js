@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Cloud Engineer/Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with Android / Java / JavaScript / Reactjs / Flutter and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://docs.google.com/document/d/1NGTaa7qQiELFHWh-qOGfT2Yml8bOiPiT/edit?usp=sharing&ouid=103279802800784340186&rtpof=true&sd=true", // Set to empty to hide the button
+    "https://drive.google.com/file/d/11O8bvUeLv0T9y95AhjZ4-DQ-a_Wl-GMD/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -223,6 +223,18 @@ const bigProjects = {
           name: "Visit Code",
           url: "https://github.com/Shubhamkariya/ChatMate"
         }
+      ]
+    },
+    {
+      image: require("./assets/images/HotelManagement.jpg"),
+      projectName: "Hotel Managment",
+      projectDesc: "Experience the ultimate in hotel management on our website. Designed to simplify booking, personalize your stay, and provide transparency, it offers exclusive discounts and 24/7 customer support. Our eco-friendly and safe practices, along with local attraction information, ensure a complete, unforgettable experience. Connect, relax, and enjoy with us.",
+      footerLink: [
+        {
+          name: "View Code",
+          url: "https://github.com/Shubhamkariya/HotelManagement"
+        }
+        //  you can add extra buttons here.
       ]
     }
   ],

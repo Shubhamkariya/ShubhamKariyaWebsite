@@ -14,10 +14,10 @@ export default function Footer() {
         </p>
         <p className={isDark ? "dark-mode footer-text" : "footer-text"} 
         style={{color:"transparent"}}>
-          <p  style={{color:"transparent"}} >Theme by{" "}</p>
-          <a style={{color:"transparent"}} href="https://github.com/saadpasta/developerFolio">
+          {/* <p style={{color:"transparent"}} >Theme by{" "}</p> */}
+          {/* <a style={{color:"transparent"}} href="https://github.com/saadpasta/developerFolio">
             developerFolio
-          </a>
+          </a> */}
         </p>
       </div>
     </Fade>
