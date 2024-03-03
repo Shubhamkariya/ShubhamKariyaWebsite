@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Shubham Kariya",
-  title: "Hi all, I'm Shubham",
+  username: "Twinkle Kariya",
+  title: "Hi all, I'm Twinkle",
   subTitle: emoji(
-    "A passionate Cloud Engineer/Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with Android / Java / JavaScript / Reactjs / Flutter and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with Android / Java / JavaScript / Reactjs / Ruby On Rails / AWS and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/11O8bvUeLv0T9y95AhjZ4-DQ-a_Wl-GMD/view?usp=sharing", // Set to empty to hide the button
@@ -33,10 +33,10 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/shubhamkariya",
-  linkedin: "https://www.linkedin.com/in/shubhamkariya/",
-  gmail: "shubhamkariya1998@gmail.com",
-  facebook: "https://www.facebook.com/shubham1998k/",
+  github: "https://github.com/TwinkleK21",
+  linkedin: "https://www.linkedin.com/in/twinkle-kariya/",
+  gmail: "kariyatwinkle2@gmail.com",
+  facebook: "https://www.facebook.com/twinkle.kariya/",
  
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -119,24 +119,23 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Fergusson College",
-      logo: require("./assets/images/download.jpeg"),
+      schoolName: "Santa Clara University",
+      logo: require("./assets/images/Santa_Clara.png"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2017 - April 2019",
+      duration: "September 2019 - March 2021",
       desc: "Participated in the event and won 2nd prize in intercollege seminar competition",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       // ]
     },
-    // {
-    //   schoolName: "Stanford University",
-    //   logo: require("./assets/images/stanfordLogo.png"),
-    //   subHeader: "Bachelor of Science in Computer Science",
-    //   duration: "September 2013 - April 2017",
-    //   desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-    //   descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    // }
+    {
+      schoolName: "Pune University, India",
+      logo: require("./assets/images/university.png"),
+      subHeader: "Bachelor of Science in Computer Science",
+      duration: "September 2013 - April 2017",
+      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+    }
   ]
 };
 
@@ -167,22 +166,43 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Full Stack Developer",
-      company: "Deloitte",
-      companylogo: require("./assets/images/deloitteLogo.png"),
-      date: "Feb 2022 – Present",
-      desc:"My role includes developing websites using JavaScript, designing and implementing REST APIs, optimizing data retrieval and processing, integrating with external systems such as ServiceNow, and working with GCP Firestore for data storage and retrieval ",
-      techStack:"TechStack: Java, SpringBoot, ReactJs, ServiceNow Application, JavaScript, HTML5, CSS3, AJAX, JQuery, BootStrap, PL/SQL",
+      role: "Software Development Engineer,",
+      company: "Amazon.com",
+      companylogo: require("./assets/images/amazon.png"),
+      date: "Oct 2021 – Present",
+      descBullets: [
+        "Designed and implemented Payment Recommendation project to reduce % of declined transactions due to Invalid Payment",
+        "Designed and implemented email notification flows for Affirm integration within Amazon Pay, encompassing order completion, payment capture, order cancellation, and refund processes, ensuring precise communication with buyers and suppressing specific emails to prevent payment confusion",
+        "Integrated AmazonPay seamlessly into Stripe's cPSP program, automating merchant enablement for Express Checkout, managing network card transactions via Stripe, and optimizing APM transactions through AmazonPay.",
+      ],
 
     },
     {
-      role: "Software Engineer",
-      company: "Atos",
-      companylogo: require("./assets/images/atosLogo.png"),
-      date: "Jan 2020 – Feb 2022",
-      desc: "Worked on various projects that required handling the client database which will help clients to store the data systematically with reduced fetching time. I also created the CITA account on the Linux OS. As a ServiceNow Developer for around 1 year, I have also designed different tools such as Agent Chat and Explicit Role, and Walkup Instance. ",
-      techStack: "TechStack: ReactJS, Angular JS, ServiceNow Application, PL/SQL, Linux"
+      role: "Software Development Engineer",
+      company: "A9.com, Inc,",
+      companylogo: require("./assets/images/download (1).jpeg"),
+      date: "May 2021 – Oct 2021",
+      // desc: "Worked on various projects that required handling the client database which will help clients to store the data systematically with reduced fetching time. I also created the CITA account on the Linux OS. As a ServiceNow Developer for around 1 year, I have also designed different tools such as Agent Chat and Explicit Role, and Walkup Instance. ",
+      // techStack: "TechStack: ReactJS, Angular JS, ServiceNow Application, PL/SQL, Linux"
+      descBullets: [
+        "Focused on machine learning and model enhancing using Spark, Map-reduce technology and Python",
+        "Writing Jupyter notebooks and DJS jobs to create lightweight RODB, writing automation scripts in Java and python",
+        "Implementing PySpark script to automate creation of EMR cluster and run pyspark job",
+      ],
+    },
 
+    {
+      role: "Software Engineer Intern,",
+      company: "Hewlett Packard Enterprise",
+      companylogo: require("./assets/images/hm.png"),
+      date: "Jun 2020 – Dec 2020",
+      // desc: "Worked on various projects that required handling the client database which will help clients to store the data systematically with reduced fetching time. I also created the CITA account on the Linux OS. As a ServiceNow Developer for around 1 year, I have also designed different tools such as Agent Chat and Explicit Role, and Walkup Instance. ",
+      // techStack: "TechStack: ReactJS, Angular JS, ServiceNow Application, PL/SQL, Linux"
+      descBullets: [
+        "Designed and built a containerized Go HTTP application using Gin Framework, to be hosted on switches within two weeks.",
+        "Systemized the request-response format, for the agent to interact with various switches and workstations.",
+        "Increased the capability, ensured resiliency, handled failures, and timeouts smoothly, enabled logging mechanism.",
+      ],
     },
    
   ]
@@ -204,38 +224,39 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/FamilyTracker.avif"),
-      projectName: "FamilyTracker",
-      projectDesc: "The app is designed to keep you connected with your friends and family in real-time, no matter where they are. You can track their location, give an emergency call with sms, and even start an alert sound when needed. Adding and removing members from your group is simple, making it easy to manage your connections. Whether you're planning a family trip or simply want to stay connected with your loved ones, the FamilyTracker app is the perfect solution.",
-      footerLink: [
-        {
-          name: "View Code",
-          url: "https://github.com/Shubhamkariya/FamilyTracker"
-        }
-        //  you can add extra buttons here.
-      ]
+      projectName: "Email notifications changes for integrating AmazonPay with Affirm ",
+      projectDesc:" Implementing customized email notifications to streamline communication between AmazonPay and Affirm, optimizing order completion, payment capture, cancellation, and refund processes for buyers clarity.Technology Stack: HTML/CSS, JavaScript, Node.js, RESTful APIs, Affirm API, AmazonPay API, Email templating libraries."
+      
+      // footerLink: [
+      //   {
+      //     name: "View Code",
+      //     url: "https://github.com/Shubhamkariya/FamilyTracker"
+      //   }
+      //   //  you can add extra buttons here.
+      // ]
     },
     {
       image: require("./assets/images/ChatBot.avif"),
-      projectName: "ChatBot",
-      projectDesc: "The app allows users to sign up and log in using their email or social media accounts, view a list of all active users, and initiate chats with any user on the list. Messages are stored in Firebase's Cloud Firestore database, enabling real-time syncing of data between clients. The app can also support features like file sharing, push notifications, and online presence indicators. Firebase provides a scalable and reliable infrastructure for hosting and running the app.",
-      footerLink: [
-        {
-          name: "Visit Code",
-          url: "https://github.com/Shubhamkariya/ChatMate"
-        }
-      ]
+      projectName: " CV2 Customization for Amazon Pay Integration with Shopify",
+      projectDesc: "Enhancing the checkout experience for Amazon Pay within Shopify by customizing the Change PI (Payment Instrument) flow,   Address Modification flow, and incorporating phone number inclusion in shipping addresses. Ensuring these feature enhancements are scalable and extensible to benefit various merchants and Service Providers (SPs). Technology Stack: JavaScript, React, Shopify API, AmazonPay API, HTML/CSS, GraphQL, RESTful APIs, Webhooks.",
+      // footerLink: [
+      //   {
+      //     name: "Visit Code",
+      //     url: "https://github.com/Shubhamkariya/ChatMate"
+      //   }
+      // ]
     },
     {
       image: require("./assets/images/HotelManagement.jpg"),
-      projectName: "Hotel Managment",
-      projectDesc: "Experience the ultimate in hotel management on our website. Designed to simplify booking, personalize your stay, and provide transparency, it offers exclusive discounts and 24/7 customer support. Our eco-friendly and safe practices, along with local attraction information, ensure a complete, unforgettable experience. Connect, relax, and enjoy with us.",
-      footerLink: [
-        {
-          name: "View Code",
-          url: "https://github.com/Shubhamkariya/HotelManagement"
-        }
-        //  you can add extra buttons here.
-      ]
+      projectName: "Yelp kind Database Design",
+      projectDesc: "Built a JAVA application that runs queries on Yelp data and extracts useful information. Technology Stack: JDBC, Java, ER Data Model, JSON, Oracle Database, Netbeans IDE, XML, SQL query, Swing GUI Toolkit",
+      // footerLink: [
+      //   {
+      //     name: "View Code",
+      //     url: "https://github.com/Shubhamkariya/HotelManagement"
+      //   }
+      //   //  you can add extra buttons here.
+      // ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -353,8 +374,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+91-9834242046",
-  email_address: "shubhamkariya1998@gmail.com"
+  number: "+1 (240) 660-6405",
+  email_address: "kariyatwinkle2@gmail.com"
 };
 
 // Twitter Section
