@@ -169,7 +169,7 @@ const workExperiences = {
   {
       role: "Product Solution Engineer",
       company: "Google",
-      companylogo: require("./assets/images/deloitteLogo.png"),
+      companylogo: require("./assets/images/google.png"),
       date: "May 2024 – Present",
       desc:"My role includes developing websites using JavaScript, designing and implementing REST APIs, optimizing data retrieval and processing, integrating with external systems such as ServiceNow, and working with GCP Firestore for data storage and retrieval ",
       techStack:"TechStack: Java, SpringBoot, ReactJs, ServiceNow Application, JavaScript, HTML5, CSS3, AJAX, JQuery, BootStrap, PL/SQL",
