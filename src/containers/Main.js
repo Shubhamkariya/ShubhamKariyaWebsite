@@ -23,6 +23,13 @@ const Main = () => {
   const [isShowingSplashAnimation, setIsShowingSplashAnimation] =
     useState(true);
 
+const userCountryCode = 'IN'; // Replace with your actual logic to get the country
+
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+  'user_country': userCountryCode
+});
+  
   useEffect(() => {
     if (splashScreen.enabled) {
       const splashTimer = setTimeout(
