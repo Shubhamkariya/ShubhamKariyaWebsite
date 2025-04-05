@@ -3,13 +3,9 @@ import Main from "./containers/Main";
 import React from 'react';
 import ReactGA from 'react-ga4'; 
 import { useEffect } from 'react';
-import { GTM_ID } from './containers/constants'; 
-declare global {
-  interface Window {
-    dataLayer: any[];
-  }
-}
+import {splashScreen} from "../../portfolio";
 
+GTM_ID = splashScreen.GTM_ID
 const App = () => {
  useEffect(() => {
     // Initialize Google Tag Manager
