@@ -13,10 +13,7 @@ const splashScreen = {
   duration: 2000 // Set animation duration as per your animation
 };
 
-const GTM_ID = {
-  id: "GTM-KM7WDCDN"
-  
-}
+
 
 // Summary And Greeting Section
 
