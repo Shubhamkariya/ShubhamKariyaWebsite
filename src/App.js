@@ -1,13 +1,15 @@
 import "./App.scss";
 import Main from "./containers/Main";
-import React from 'react';
-import ReactGA from 'react-ga4'; 
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
+import ReactGA from 'react-ga4';
 
-GTM_ID = "GTM-KM7WDCDN"
- 
+// Import your GTM_ID from the constants file
+import { GTM_ID } from './constants'; // Assuming constants.js is in the same directory
+// If constants.js is in a different location, adjust the path accordingly
+// For example: import { GTM_ID } from './utils/constants';
+
 const App = () => {
- useEffect(() => {
+  useEffect(() => {
     // Initialize Google Tag Manager
     const script = document.createElement('script');
     script.src = `https://www.googletagmanager.com/gtag/js?id=${GTM_ID}`;
@@ -27,6 +29,7 @@ const App = () => {
       }
     };
   }, []);
+
   return (
     <div>
       <Main />
