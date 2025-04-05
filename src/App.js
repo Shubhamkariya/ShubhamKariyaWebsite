@@ -3,15 +3,33 @@ import Main from "./containers/Main";
 import React from 'react';
 import ReactGA from 'react-ga4'; 
 import { useEffect } from 'react';
-
+import { GTM_ID } from './containers/constants'; 
+declare global {
+  interface Window {
+    dataLayer: any[];
+  }
+}
 
 const App = () => {
-   useEffect(() => {
+ useEffect(() => {
+    // Initialize Google Tag Manager
     const script = document.createElement('script');
-    script.src = `https://www.googletagmanager.com/gtag/js?id=GTM-KM7WDCDN`; // Correct - using the variable
+    script.src = `https://www.googletagmanager.com/gtag/js?id=${GTM_ID}`;
+    script.async = true;
+    document.head.appendChild(script);
 
-    gtag('config', GTM_ID); // Correct - using the variable
-    // ...
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', GTM_ID);
+
+    // Optional: Clean up the script tag on unmount
+    return () => {
+      const gtmScript = document.querySelector(`script[src='https://www.googletagmanager.com/gtag/js?id=${GTM_ID}']`);
+      if (gtmScript) {
+        document.head.removeChild(gtmScript);
+      }
+    };
   }, []);
   return (
     <div>
