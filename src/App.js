@@ -7,6 +7,9 @@ import ReactGA from 'react-ga4';
 import { GTM_ID } from './constants'; // Assuming constants.js is in the same directory
 // If constants.js is in a different location, adjust the path accordingly
 // For example: import { GTM_ID } from './utils/constants';
+interface Window {
+  dataLayer: any[];
+}
 
 const App = () => {
   useEffect(() => {
