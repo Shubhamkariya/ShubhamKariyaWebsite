@@ -28,7 +28,7 @@ const greeting = {
     "A passionate Cloud Engineer/Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with Android / Java / JavaScript / Reactjs / Flutter and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ujD_ggjkUmHQuHnPg6pnnT8_Bq-I4E2b/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1mRgEVSwXkjehWuWTV8kpYdOtU_VSs5el/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
